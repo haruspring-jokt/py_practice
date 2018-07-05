@@ -105,3 +105,14 @@ venv.bak/
 
 # vscode
 .vscode/
+.vscode
+Scripts
+selenium
+pip-selfcheck.json
+pyvenv.cfg
+Scripts
+plugins
+Scripts
+pip-selfcheck.json
+pyvenv.cfg
+.vscode
