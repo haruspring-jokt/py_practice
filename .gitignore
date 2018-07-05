@@ -116,3 +116,5 @@ Scripts
 pip-selfcheck.json
 pyvenv.cfg
 .vscode
+/discord/pyvenv.cfg
+/discord/pip-selfcheck.json
