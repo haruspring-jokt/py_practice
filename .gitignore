@@ -105,11 +105,7 @@ venv.bak/
 
 # vscode
 .vscode/
-.vscode
 selenium
 pip-selfcheck.json
-pyvenv.cfg
 Scripts
-pip-selfcheck.json
-/discord/pyvenv.cfg
-/discord/pip-selfcheck.json
+pyvenv.cfg
