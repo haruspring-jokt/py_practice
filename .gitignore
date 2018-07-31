@@ -109,3 +109,4 @@ selenium
 pip-selfcheck.json
 Scripts
 pyvenv.cfg
+.history/

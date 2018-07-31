@@ -17,6 +17,8 @@ def respond_simple_tenki_tokyo(message):
     html = requests.get(url)
     json_file = json.loads(html.text)
 
+    assert json_file is not None, '天気情報を正しく取得できませんでした'
+
     tenki_today = json_file['forecasts'][0]['telop']
     tenki_tomorrow = json_file['forecasts'][1]['telop']
     tenki_day_after_tomorrow = json_file['forecasts'][2]['telop']
